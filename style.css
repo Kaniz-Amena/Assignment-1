@@ -1,0 +1,122 @@
+body{
+    font-family: 'Poppins', sans-serif;
+   margin: 0%;
+   padding: 20px 20px;
+}
+.flexibility{
+    display: flex;
+    margin-bottom: 100px;
+}
+.theme-color{
+    color:darkviolet;
+}
+h1{
+    font-size: 60px;
+    font-weight:700px;
+}
+h2{
+    font-size: 50px;
+    font-weight: 700px;
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+    font-weight:700px;
+    text-align: left;
+}
+p{
+    padding-bottom: 20px;
+}
+.adjust-width{
+    width: 50%;
+    padding: 7%;
+    text-align: start;
+ 
+}
+.adjust-width img{
+    width: 100%;
+}
+.border
+    {
+        border-left: 5px solid;
+       border-image: linear-gradient(darkviolet,orange );
+       border-image-slice:1 ;
+    }
+    .button{
+        text-decoration: none;
+        color:white;
+        font-weight: 700px;
+     background-image:linear-gradient(darkviolet,orange );
+        padding: 10px 30px;
+        border-radius:10px ;
+
+    }
+    #mission{ 
+        width: 50%;
+        margin-left: 10%;
+        padding-left: 20px;
+        padding-right:20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 40px;
+        background-color: lightsalmon;
+
+    }
+
+    #vission{
+        width: 50%;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 40px;
+        background-color: lightskyblue;
+
+    }
+
+     #goals{
+     width: 50%;
+     margin-right: 10%;
+     padding-right: 20px;
+     padding-left: 20px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     border-radius: 40px;
+     background-color: lightpink;
+    }
+   
+.photo-radius{
+    border-radius: 40px;
+}
+#left-background-img{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+}
+#right-background-img{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    background-size: 200px;
+}
+
+
+.bonus-background-img{
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat:no-repeat;
+    background-position-x: 0%;
+    background-position-y: 100%;
+    background-size: 200px;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+#footer-color{
+    color:coral;
+}
